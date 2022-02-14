@@ -1,0 +1,97 @@
+.box {
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	background: #888;
+	float: left;
+	background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+.box:hover {
+	background-color: #e6d1e7 !important;
+	cursor: pointer;
+}
+
+.box.large {
+	background-color: #e6d1e7 !important;
+	z-index: 2;
+}
+
+#container, #container2, #container3, #container4 {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.masonry-section {
+	text-align-last: center;
+}
+
+.h2_box {
+	margin-bottom: -30px;
+	text-align-last: center;
+	font-size : 80px;
+}
+
+.boxing {
+	display : block;
+}
+.grid {
+	margin: 0 auto;
+}
+
+.stamp1 {
+	width: 100%;
+}
+
+/* mbti 별 이미지  */
+#istj { 
+	background: url("/img/ISTJ.jpg");
+}
+#istp {
+	background: url("/img/ISTP.jpg"); 
+}
+#isfj { 
+	background: url("/img/ISFJ.jpg");
+}
+#isfp { 
+	background: url("/img/ISFP.jpg");
+}
+#intj { 
+	background: url("/img/INTJ.jpg");
+}
+#intp { 
+	background: url("/img/INTP.jpg");
+}
+#infj { 
+	background: url("/img/INFJ.jpg");
+}
+#infp { 
+	background: url("/img/INFP.jpg");
+}
+#istp { 
+	background: url("/img/ISTP.jpg");
+}
+#estp { 
+	background: url("/img/ESTP.jpg");
+}
+#esfj { 
+	background: url("/img/ESFJ.jpg");
+}
+#esfp {
+	background: url("/img/ESFP.jpg"); 
+}
+#entj { 
+	background: url("/img/ENTJ.jpg");
+}
+#entp { 
+	background: url("/img/ENTP.jpg");
+}
+#enfj { 
+	background: url("/img/ENFJ.jpg");
+}
+#enfp {
+	background: url("/img/ENFP.jpg"); 
+}
