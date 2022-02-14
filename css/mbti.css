@@ -48,50 +48,50 @@
 
 /* mbti 별 이미지  */
 #istj { 
-	background: url("/img/ISTJ.jpg");
+	background: url("./img/ISTJ.jpg");
 }
 #istp {
-	background: url("/img/ISTP.jpg"); 
+	background: url("./img/ISTP.jpg"); 
 }
 #isfj { 
-	background: url("/img/ISFJ.jpg");
+	background: url("./img/ISFJ.jpg");
 }
 #isfp { 
-	background: url("/img/ISFP.jpg");
+	background: url("./img/ISFP.jpg");
 }
 #intj { 
-	background: url("/img/INTJ.jpg");
+	background: url("./img/INTJ.jpg");
 }
 #intp { 
-	background: url("/img/INTP.jpg");
+	background: url("./img/INTP.jpg");
 }
 #infj { 
-	background: url("/img/INFJ.jpg");
+	background: url("./img/INFJ.jpg");
 }
 #infp { 
-	background: url("/img/INFP.jpg");
+	background: url("./img/INFP.jpg");
 }
 #istp { 
-	background: url("/img/ISTP.jpg");
+	background: url("./img/ISTP.jpg");
 }
 #estp { 
-	background: url("/img/ESTP.jpg");
+	background: url("./img/ESTP.jpg");
 }
 #esfj { 
-	background: url("/img/ESFJ.jpg");
+	background: url("./img/ESFJ.jpg");
 }
 #esfp {
-	background: url("/img/ESFP.jpg"); 
+	background: url("./img/ESFP.jpg"); 
 }
 #entj { 
-	background: url("/img/ENTJ.jpg");
+	background: url("./img/ENTJ.jpg");
 }
 #entp { 
-	background: url("/img/ENTP.jpg");
+	background: url("./img/ENTP.jpg");
 }
 #enfj { 
-	background: url("/img/ENFJ.jpg");
+	background: url("./img/ENFJ.jpg");
 }
 #enfp {
-	background: url("/img/ENFP.jpg"); 
+	background: url("./img/ENFP.jpg"); 
 }
