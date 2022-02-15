@@ -50,6 +50,10 @@ body {
 	width: 100%;
 }
 
+.modal-dialog {
+	width: 60%;
+}
+
 /* mbti 별 이미지  */
 #istj { 
 	background: url("https://dbtkdok.github.io/mbti_nyang/img/ISTJ.jpg");
