@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="./css/mbti.css">
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="./css/jquery.modal.min.css" />
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<script src="./js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/mbti.css">
     <script src="./js/mbti.js"></script>
   </head>
 <body>
@@ -87,8 +87,19 @@
 		<a href="https://www.instagram.com/mbti.nyang/" target="_blank"><img src="./img/InstagramLink.jpg"></a>
     </section>
 	
-    <div id="ex1" class="modal">
-    	<p>안녕하세요. 모달창안의 내용부분입니다.</p>
-   	<a href="#" rel="modal:close">닫기</a>
+	<div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
