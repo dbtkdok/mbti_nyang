@@ -1,3 +1,5 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+
 body {
 	background: #f9f3f3;
 }
@@ -39,6 +41,20 @@ body {
 	font-size : 80px;
 }
 
+.fx_cn {
+	display: flex; 
+	align-content: center; 
+	justify-content: center;
+}
+
+.reloads {
+	font-size: 24px;
+    margin-left: 15px;
+	display: flex; 
+	align-items: center;
+	cursor: pointer;
+}
+
 .boxing {
 	display : block;
 }
@@ -52,6 +68,25 @@ body {
 
 .modal-dialog {
 	width: 100%;
+}
+
+.col-12 {
+	display: flex;
+	justify-content: center;
+}
+
+.bingos {
+	cursor: pointer;
+}
+
+.bingos_cls {
+	background-color: #e6d1e7 !important;
+    padding: 3px;
+}
+
+.bingos:hover {
+	background-color: #e6d1e7 !important;
+	cursor: pointer;
 }
 
 /* mbti 별 이미지  */
