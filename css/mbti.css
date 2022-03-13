@@ -24,6 +24,9 @@ body {
 	z-index: 2;
 }
 
+.modal-footer {
+    border-top: 0;
+}
 #container, #container2, #container3, #container4 {
     width: 100%;
     display: flex;
@@ -77,6 +80,7 @@ body {
 
 .bingos {
 	cursor: pointer;
+	padding: 3px;
 }
 
 .bingos_cls {
