@@ -10,8 +10,10 @@ $(function () {
 		html += '<div class="col-sm-12 col-12">';
 		for(var ii = 1; ii<26; ii++) {
 			var ids = id + '_' + ii;
+			var fn = 'onclick="fnbingosClk(' + ids +')"';
 			if(ii == 13) {
 				cls = '';
+				fn = '';
 			} else {
 				cls = 'bingos'
 			}
@@ -31,7 +33,7 @@ $(function () {
 				html += '<div class="col-sm-12 col-12">';
 			}
 
-			html += '<div onclick="fnbingosClk(' + ids +')" id="' + ids +'" class="col-sm-2 ' + cls +'"">';
+			html += '<div ' + fn +'  id="' + ids +'" class="col-sm-2 col-2 ' + cls +'"">';
 
 			
 
