@@ -87,12 +87,8 @@ body {
 }
 
 .bingos_cls {
-	background-color: #e6d1e7 !important;
+    background-color: #e6d1e7 !important;
     padding: 3px;
-}
-
-.bingos:hover {
-	background-color: #e6d1e7 !important;
 	cursor: pointer;
 }
 
