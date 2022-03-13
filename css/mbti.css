@@ -80,6 +80,9 @@ body {
 
 .bingos {
 	cursor: pointer;
+}
+
+.col-2 {
 	padding: 3px;
 }
 
